@@ -33,4 +33,4 @@ As many computers used for the course haven't Git, we have structurated the proj
 1. [Empty application](./step-01/)
 1. [Simple beer list](./step-02/)
 1. [Prettifying the list](./step-03/)
-1. [Using Ionic elements](./step-04/)
+1. [Using Ionic AngularJS Extensions](./step-04/)

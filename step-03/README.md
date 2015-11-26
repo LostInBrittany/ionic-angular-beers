@@ -61,4 +61,4 @@ Instead of defining ourselves the thumbnails via CSS, we can simply use another 
 ## Summary
 
 In this step we have used Ionic CSS classes to make the list prettier and more ergonomic. In next step, [step 4](../step-04),
-we are replacing these CSS classes with Ionic element, full fledged components (or directives, using Angular terminology).
+we are replacing these CSS classes with Ionic AngularJS Extensions, full fledged components (or directives, using Angular terminology).
