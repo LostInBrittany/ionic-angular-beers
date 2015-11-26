@@ -54,3 +54,67 @@ $ ionic emulate android
 ```
 
 ![Application on Android emulator](../img/step-01-02.png)
+
+## Structure of the application
+
+Here is what the outer structure of your Ionic project will look like:
+
+```
+├── bower.json     // bower dependencies
+├── config.xml     // cordova configuration
+├── gulpfile.js    // gulp tasks
+├── hooks          // custom cordova hooks to execute on specific commands
+├── ionic.project  // ionic configuration
+├── package.json   // node dependencies
+├── platforms      // iOS/Android specific builds will reside here
+├── plugins        // where your cordova/ionic plugins will be installed
+├── scss           // scss code, which will output to www/css/
+└── www            // application - JS code and libs, CSS, images, etc.
+```
+
+Since every Ionic app is basically a web page, the `index.html` file in our app which defines the first page that loads in the app.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Ionic Blank Starter</h1>
+      </ion-header-bar>
+      <ion-content>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
+```
+
+In the shell above, we are including the Ionic CSS and both the core Ionic JS and the Ionic AngularJS extensions in the `ionic.bundle.js` file. Ionic comes with `ngAnimate` and `ngSanitize` bundled in, but to use other Angular modules you’ll need to include them from the `lib/js/angular` directory.
+
+Also note that the `cordova.js` or `phonegap.js` file must be the last script, and that this file will not be found in your development files, but rather automatically included when running or emulating your app.
+
+## Summary ##
+
+Now that you have created an empty application, go to [step 2](../step-02) to learn about adding some AngularJS elements to our application.

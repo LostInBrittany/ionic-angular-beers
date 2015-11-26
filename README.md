@@ -1,7 +1,7 @@
 # Ionic Angular Beers
 
 
-## An Ionic port of [Angular Beers](https://github.com/LostInBrittany/angular-beers) 
+## An Ionic port of [Angular Beers](https://github.com/LostInBrittany/angular-beers)
 
 *A work-in-progress tutorial for Ionic based on my [Angular Beers](https://github.com/LostInBrittany/angular-beers) tutorial for AngularJS*
 
@@ -31,3 +31,4 @@ In order to test your mobile application you will also need either [Android Stud
 As many computers used for the course haven't Git, we have structurated the project to allow a Git-less use. The `app` directory is the sources directory of the project, the working version of the code. The tutorial is divided in steps, each one in its own directory:
 
 1. [Empty application](./step-01/)
+1. [Simple beer list](./step-02/)
