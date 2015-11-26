@@ -1,4 +1,4 @@
-#  Ionic Angular Beers tutorial - Step 02
+#  Ionic Angular Beers tutorial - Step 02 - Simple beer list
 
 In this step we will take the basic beer list from Angular Beers tutorial and we will put it in the ionic application.
 
@@ -58,3 +58,7 @@ controller('BeerListCtrl', ['$scope', '$http', function($scope, $http) {
 So now we have a (rather ugly) beer list in our application.
 
 ![Ugly beer list](../img/step-02-01.png)
+
+## Summary ##
+
+Now that you have an ugly beer list, go to [step 3](../step-03) to learn about using Ionic elements to make the list prettier.
