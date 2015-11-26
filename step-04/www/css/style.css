@@ -1,0 +1,23 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+.beer-thumbs {
+  float: left;
+  border: 1px solid black;
+  padding: 0.25em;
+  margin-right: 1em;
+  background-color: white;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+h2.beer-name {
+  font-size: 18px;
+}
+
+.beer-description {
+  margin-top: 0.5em;
+  white-space: normal;
+}
